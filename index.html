@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shifumi</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Shifumi</h1>
+    </header>
+    <main>
+        <button class="choice-btn" aria-label="Choisir Pierre" type="button">Pierre</button>
+        <button class="choice-btn" aria-label="Choisir Feuille" type="button">Feuille</button>
+        <button class="choice-btn" aria-label="Choisir Ciseaux" type="button">Ciseaux</button>
+    </main>
+    <section id="result-display" aria-live="polite"></section>
+    <section id="score">
+        <p id="win">0 victoire</p>
+        <p id="draw">0 égalité</p>
+        <p id="lose">0 défaite</p>
+        <button id="reset" type="button" aria-label="Réinitialiser le score">Réinitialiser le score</button>
+    </section>
+</body>
+
+</html>
